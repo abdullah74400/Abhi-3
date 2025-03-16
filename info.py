@@ -63,7 +63,7 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://agnakumaeObTF9P8KcHCuN
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjclonefilterbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
 
-MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', True)) # Set True or False
+MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', False)) # Set True or False
 
 # If Multiple Database Is True Then Fill All Three Below Database Uri Else You Will Get Error.
 O_DB_URI = environ.get('O_DB_URI', "mongodb+srv://agnakumaeObTF9P8KcHCuNSDN@cluster0.oahj2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db Is For Other Data Store
@@ -115,7 +115,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'indiaearnx.com')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '4648f3b9a330674316e0cf01a7b5e8611e4fcd8a')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', '')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/Hindi_movie_uplod/36')
 
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
@@ -128,7 +128,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '4648f3b9a330
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'indiaearnx.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '4648f3b9a330674316e0cf01a7b5e8611e4fcd8a')
-TUTORIAL = environ.get('TUTORIAL', '') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Hindi_movie_uplod/36') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
 # Others
